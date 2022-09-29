@@ -1,3 +1,37 @@
+#max of 4 numbers using nested if else statement:
+
+a=1111
+b=222
+c=3333
+d=44444
+
+if(a>b):
+    if(a>c):
+        if(a>d):
+            print(a)
+        else:
+            print(d)
+    else:
+        if(c>d):
+            print(c)
+        else:
+            print(d)
+else:
+    if(b>c):
+        if(b>d):
+            print(b)
+        else:
+            print(d)
+    else:
+        if(c>d):
+            print(c)
+        else:
+            print(d)
+
+END OF THIS
+
+
+
 #max of 4 numbers using elif statement
 
 a=1111
